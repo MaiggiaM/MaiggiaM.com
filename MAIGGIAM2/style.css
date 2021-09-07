@@ -1,0 +1,291 @@
+body {
+  height: 3000px;
+
+  background: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+  animation-name: change1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  font-size: 25px;
+  background-image: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display:none ;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+/*
+
+nav.primary-navigation {
+  outline: 2px solid red ;
+  position: absolute;
+
+  margin: 0 auto;
+  display: inline;
+  padding: 120px 30 0 0;
+  text-align: center;
+  font-size: 30px;
+display: flex;justify-content: space-around;
+bottom: 1000px;
+left: 0px;
+}
+nav.primary-navigation ul li {
+  list-style: none;
+  margin: 0 auto;
+  border-left: 2px solid #3ca0e7;
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: arvo;
+
+
+}
+nav.primary-navigation li a {
+  color: black;
+}
+nav.primary-navigation li a:hover {
+  color: #3ca0e7;
+}
+nav.primary-navigation li:hover {
+  cursor: pointer;
+}
+nav.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-left: 0px;
+  left: 0;
+  display: none;
+  background: white;
+
+}
+nav.primary-navigation ul li:hover > ul,
+nav.primary-navigation ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #ccc;
+  z-index: 9999 ;
+}
+nav.primary-navigation ul li ul li {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0px;
+  border-style: none;
+}
+nav.primary-navigation ul li ul li a:hover {
+  padding-left: 10px;
+  border-left: 2px solid #3ca0e7;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #3ca0e7;
+}
+
+ul li ul li a {
+  transition: all 0.5s ease;}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .right{position: absolute;
+    right: 0%;
+    top: 10%;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+
+    margin-top: 0px;
+
+  animation-name: righttimg;
+  animation-duration: 30s ;}
+
+  @keyframes righttimg { from{right: 30%}
+  to {right: 0%}
+
+  }
+
+
+  .left {position:absolute;
+    top: 10%;
+    left: 0%;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+
+    margin-top:0px;
+    margin-left: 0px;
+
+     ;
+
+    animation-name: leftimg;
+    animation-duration:30s;
+
+  }
+  @keyframes leftimg { from{left: 30%}
+  to {left: 0%}
+
+  }
+
+
+
+
+
+.example1{z-index: 4; position: absolute;top: 100px;}
+
+
+
+
+
+.imggg{opacity: 70%;position: absolute;}
+@media screen and (min-width: 320px){.imggg{width: 80%; left: 5%}
+@media screen and (min-width: 600px){.imggg{width: 80%; left: 5%}
+@media screen and (min-width: 800px){.imggg{width: 80%; left: 5%}
+@media screen and (min-width: 1200px){.imggg{width: 800%; left: 5%}
+@media screen and (min-width: 768px) {.imggg { width: 90%;left: 9%;}
+
+
+
+
+.signup{z-index: 9999;position:relative;}
+
+
+
+.circle {width: 50%;position: absolute;left: 25%;}
